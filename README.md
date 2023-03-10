@@ -1,29 +1,11 @@
-<h1>Aplicativo TodoList</h1>
-<p>O aplicativo TodoList é uma ferramenta para gerenciamento de tarefas, onde o usuário pode adicionar, editar e excluir tarefas a serem realizadas. O aplicativo foi desenvolvido em Java para desktop, utilizando a biblioteca gráfica Swing.</p>
+<h1>TodoList App</h1> <p>O TodoList é um aplicativo escrito em Java que permite ao usuário gerenciar suas tarefas e projetos em uma interface fácil de usar. Ele se conecta a um banco de dados MySQL, que armazena as informações sobre projetos e tarefas.</p>
 
-<h2>Funcionalidades</h2>
-<p>O aplicativo possui as seguintes funcionalidades:</p>
-<ul>
-  <li>Adicionar uma nova tarefa, informando a descrição e a data de vencimento.</li>
-  <li>Editar uma tarefa existente, alterando a descrição ou a data de vencimento.</li>
-  <li>Excluir uma tarefa existente.</li>
-  <li>Marcar uma tarefa como concluída.</li>
-  <li>Listar todas as tarefas cadastradas.</li>
-  <li>Filtrar as tarefas por data de vencimento, exibindo apenas as tarefas que vencem em um determinado período.</li>
-</ul>
+<h2>Funcionalidades</h2> <p>O aplicativo tem as seguintes funcionalidades:</p> <ul> <li>Adicionar, editar e excluir projetos.</li> <li>Adicionar, editar e excluir tarefas dentro de projetos.</li> <li>Marcar tarefas como concluídas ou não concluídas.</li> <li>Definir notas e prazos para tarefas.</li> <li>Visualizar todas as tarefas em um projeto ou todas as tarefas em todos os projetos.</li> <li>Ordenar tarefas por prazo ou status.</li> </ul>
 
-<h2>Instalação</h2>
-<p>Para utilizar o aplicativo, basta realizar o download do arquivo .jar disponibilizado na página de releases do projeto. Em seguida, execute o arquivo .jar com o comando:</p>
+<h2>Instalação</h2> <p>Para instalar o aplicativo, siga os seguintes passos:</p> <ol> <li>Clone o repositório do aplicativo.</li> <li>Crie um banco de dados MySQL com as tabelas especificadas acima.</li> <li>Configure as informações de conexão com o banco de dados no arquivo db.properties.</li> <li>Compile e execute o aplicativo.</li> </ol>
 
-<pre><code>java -jar todo-list.jar</code></pre>
+<h2>Tecnologias</h2> <p>O aplicativo foi escrito em Java e utiliza as seguintes tecnologias:</p> <ul> <li>Swing para a interface do usuário.</li> <li>JDBC para a comunicação com o banco de dados.</li> <li>MySQL para o armazenamento de dados.</li> </ul>
 
-<h2>Utilização</h2>
-<p>Ao abrir o aplicativo, o usuário será direcionado para a tela principal, onde poderá visualizar todas as tarefas cadastradas. Para adicionar uma nova tarefa, basta clicar no botão "Adicionar Tarefa" e preencher as informações solicitadas. Para editar ou excluir uma tarefa existente, basta selecioná-la na lista e clicar nos botões correspondentes.</p>
+<h2>Estrutura do Projeto</h2> <p>O projeto está organizado da seguinte forma:</p> <ul> <li>src: Contém o código-fonte do aplicativo.</li> <li>resources: Contém os arquivos de recursos, como o arquivo db.properties para configuração do banco de dados.</li> <li>sql: Contém os scripts SQL para criação das tabelas do banco de dados.</li> </ul>
 
-<p>O usuário também pode marcar uma tarefa como concluída, clicando no checkbox ao lado da tarefa. Para filtrar as tarefas por data de vencimento, basta selecionar a opção "Filtrar por Data" e informar o período desejado.</p>
-
-<h2>Contribuição</h2>
-<p>Contribuições são sempre bem-vindas! Caso tenha alguma sugestão de melhoria ou encontrou algum bug, sinta-se à vontade para abrir uma issue no repositório do projeto ou enviar um pull request com as alterações propostas.</p>
-
-<h2>Licença</h2>
-<p>Este projeto é licenciado sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.md."</p>
+<h2>Contribuição</h2> <p>Contribuições são bem-vindas! Se você deseja contribuir com o projeto, siga estes passos:</p> <ol> <li>Faça um fork deste repositório.</li> <li>Crie uma branch com suas alterações (git checkout -b minha-branch).</li> <li>Faça commit de suas alterações (git commit -m ‘Adicionei uma funcionalidade’).</li> <li>Envie suas alterações para seu fork (git push origin minha-branch).</li> <li>Abra um pull request.</li> </ol>
