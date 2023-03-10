@@ -1,4 +1,4 @@
-<h1>Aplicativo Todo List</h1>
+<h1>Aplicativo TodoList</h1>
 <p>O aplicativo TodoList é uma ferramenta para gerenciamento de tarefas, onde o usuário pode adicionar, editar e excluir tarefas a serem realizadas. O aplicativo foi desenvolvido em Java para desktop, utilizando a biblioteca gráfica Swing.</p>
 
 <h2>Funcionalidades</h2>
